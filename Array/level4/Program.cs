@@ -1,0 +1,20 @@
+﻿//count even number
+
+using System;
+
+class program
+{
+    public static void Main()
+    {
+        int []arr ={2,3,4,5,6,7,8,9};
+        int count=0;
+        for(int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] % 2==0)
+            {
+                count++;
+            }
+        }
+        Console.WriteLine("Even count"+count);
+    }
+}
